@@ -1,0 +1,63 @@
+<div class="row gx-0">
+    <div class="col-sm-6 sm-style">
+        sx
+    </div>
+    <div class="col-sm-3 sm-style">
+        cn
+    </div>
+    <div class="col-sm-3 sm-style">
+        dx
+    </div>
+</div>
+<div class="row gx-0">
+    <div class="col-md-2 md-style">
+        sx
+    </div>
+    <div class="col-md-8 md-style">
+        cn
+    </div>
+    <div class="col-md-2 md-style">
+        dx
+    </div>
+</div>
+<div class="row gx-0">
+    <div class="col-lg-6 lg-style">
+        sx
+    </div>
+    <div class="col-lg-6 lg-style">
+        cn
+    </div>
+</div>
+<div class="row gx-0">
+    <div class="col-xl-12 xl-style">
+        sx
+    </div>
+</div>
+
+.row {
+    height: 200px;
+    background-color: yellow;
+}
+
+.sm-style {
+    background-color: tomato;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.md-style {
+    background-color: tomato;
+    border: 1px solid white;
+}
+
+.lg-style {
+    background-color: tomato;
+    border: 1px solid white;
+}
+
+.xl-style {
+    background-color: tomato;
+    border: 1px solid white;
+}
